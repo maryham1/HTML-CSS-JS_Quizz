@@ -2,6 +2,7 @@ import { useEffect, useReducer } from "react";
 import Loading from "./Loading";
 import Html from "./Html";
 import Result from "./Result";
+
 import Cascading from "./Cascading";
 import JavaScript from "./JavaScript";
 import Accessibility from "./Accessibility";
@@ -127,10 +128,20 @@ function App() {
   useEffect(function () {
     async function fetchQuestions() {
       try {
-        const res = await fetch("http://localhost:3000/Questionss");
+        const res = await fetch(
+          "https://api.jsonbin.io/v3/b/699edfceae596e708f485bd2",
+          {
+            headers: {
+              "X-Master-Key":
+                "$2a$10$LtYIYH4e3XhxsvcLcw5BKO.Bk5x6UZbfWHGJAZ83k/Vj.Bp7tr0/6",
+            },
+          },
+        );
+
         const data = await res.json();
-        dispatch({ type: "dataReceived", payload: data });
-        console.log(data);
+        console.log(data.record.Questionss);
+
+        dispatch({ type: "dataReceived", payload: data.record.Questionss });
       } catch (err) {
         console.log(err);
       }
