@@ -27,7 +27,7 @@ function Cascading({
 }) {
   const label = ["A", "B", "C", "D"];
   const questionName = "CSS";
-  const questionLogo = "src/assets/icons/icon-css.svg";
+  const questionLogo = "/icons/icon-css.svg";
   const cssStyle = {
     backgroundColor: "rgb(213, 233, 213)",
     padding,

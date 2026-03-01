@@ -1,5 +1,5 @@
 body {
-  background-image: url("assets/quiz-bqackground.webp");
+  background-image: url("/quiz-bqackground.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -318,8 +318,8 @@ progress {
 @media (max-width: 476px) {
   .app {
     padding: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .loading-page {
     flex-direction: column;

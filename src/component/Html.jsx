@@ -27,7 +27,7 @@ function Html({
 }) {
   const label = ["A", "B", "C", "D"];
   const questionName = "HTML";
-  const questionLogo = "src/assets/icons/icon-html.svg";
+  const questionLogo = "/icons/icon-html.svg";
   const htmlStyle = {
     backgroundColor,
     padding,

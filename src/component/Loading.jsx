@@ -34,22 +34,19 @@ function Loading({
       </div>
       <div className="subject_option">
         <button onClick={() => dispatch({ type: "htmlQuestions" })}>
-          <img src="src/assets/icons/icon-html.svg" style={htmlStyle} />
+          <img src="/icons/icon-html.svg" style={htmlStyle} />
           <p>HTML</p>
         </button>
         <button onClick={() => dispatch({ type: "cssQuestions" })}>
-          <img src="src/assets/icons/icon-css.svg" style={cssStyle} />
+          <img src="/icons/icon-css.svg" style={cssStyle} />
           <p>CSS</p>
         </button>
         <button onClick={() => dispatch({ type: "jsQuestions" })}>
-          <img src="src/assets/icons/icon-js.svg" style={jsStyle} />
+          <img src="/icons/icon-js.svg" style={jsStyle} />
           <p>JavaScript</p>
         </button>
         <button onClick={() => dispatch({ type: "accessQuestions" })}>
-          <img
-            src="src/assets/icons/icon-accessibility.svg"
-            style={accessStyle}
-          />
+          <img src="/icons/icon-accessibility.svg" style={accessStyle} />
           <p> Accessibility</p>
         </button>
       </div>

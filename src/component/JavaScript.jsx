@@ -27,7 +27,7 @@ function JavaScript({
 }) {
   const label = ["A", "B", "C", "D"];
   const questionName = "JavaScript";
-  const questionLogo = "src/assets/icons/icon-js.svg";
+  const questionLogo = "/icons/icon-js.svg";
   const jsStyle = {
     backgroundColor: "rgb(217, 217, 240)",
     padding,

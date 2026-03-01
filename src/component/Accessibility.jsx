@@ -15,7 +15,7 @@ function Accessibility({
   questionIndex,
   answer,
   validationError,
-secondsRemaining,
+  secondsRemaining,
   isSubmitted,
   isFinished,
   answers,
@@ -27,7 +27,7 @@ secondsRemaining,
 }) {
   const label = ["A", "B", "C", "D"];
   const questionName = "Accessibility";
-  const questionLogo = "src/assets/icons/icon-accessibility.svg";
+  const questionLogo = "/icons/icon-accessibility.svg";
   const accessStyle = {
     backgroundColor: "rgb(243, 225, 243)",
     padding,
