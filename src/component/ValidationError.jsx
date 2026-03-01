@@ -3,7 +3,7 @@ function ValidationError({ validationError }) {
     <>
       {validationError && (
         <div className="error">
-          <img src="src/assets/icons/wrong mark.svg" />
+          <img src="/icons/wrong-mark.svg" />
           <p>Choose an answer before moving to the next question</p>
         </div>
       )}
