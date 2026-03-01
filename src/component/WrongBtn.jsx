@@ -1,7 +1,7 @@
 function WrongBtn() {
   return (
     <button className="wrong_button">
-      <img src="src/assets/icons/wrong mark.svg" />
+      <img src="/icons/wrong-mark.svg" />
     </button>
   );
 }

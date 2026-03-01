@@ -6,6 +6,7 @@ import Result from "./Result";
 import Cascading from "./Cascading";
 import JavaScript from "./JavaScript";
 import Accessibility from "./Accessibility";
+import LoadingText from "./LoadingText";
 
 const SEC_PER_QUESTIONS = 60;
 
@@ -153,6 +154,7 @@ function App() {
   return (
     <div className="app">
       {/* <h1>{questions.HTMLQuestions[0].Question}</h1> */}
+      {status === "loading" && <LoadingText />}
       {status === "ready" && <Loading dispatch={dispatch} />}
       {status === "active1" && (
         <Cascading

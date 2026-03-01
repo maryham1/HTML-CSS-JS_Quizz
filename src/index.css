@@ -23,6 +23,9 @@ body {
   padding-bottom: 0px;
   /* align-items: center; */
 }
+.loading_text {
+  color: purple;
+}
 .loading-page {
   display: flex;
   flex-direction: row;
